@@ -1,6 +1,9 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
+	setlocale(LC_ALL, "Portuguese");
     int dia;
 
     std::cout << "Digite um número inteiro entre 1 e 7: ";

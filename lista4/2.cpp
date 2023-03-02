@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+	setlocale(LC_ALL, "Portuguese");
     char letra; //serve para armazenar UM, e somente UM, caractere.
 
     cout << "Digite uma letra: ";
